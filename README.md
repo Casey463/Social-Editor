@@ -8,6 +8,7 @@ Uses up to date CSS tech such as keyframes, and webkit. Uses BEM for logical and
 
 
 ## Installation
-    git clone main or download the zip
-    Run index.html in the dist folder with LiveServer VScode Plugin
+* git clone main or download the zip
+* run index.html using VS Code livesever plugin 
+   
 
