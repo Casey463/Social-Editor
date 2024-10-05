@@ -324,6 +324,11 @@ button {
 }
 
 .artboard {
+  display: flex;
+  height: calc(100vh - 105px);
+  justify-content: center;
+  align-items: center;
+  margin-top: -25px;
 }
 
 .canvas {
@@ -357,5 +362,7 @@ button {
 }
 
 .tools {
+  display: flex;
+  flex-direction: column;
   height: 57.5vh;
 }
