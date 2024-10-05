@@ -327,16 +327,27 @@ button {
 }
 
 .canvas {
+  height: 57.5vh;
+  width: 48.6vw;
 }
 
 .canvas__bg-img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  opacity: 0.15;
 }
 
 .canvas__fg-img {
+  height: 75%;
+  width: 78%;
+  object-fit: cover;
+  border-radius: 3px;
 }
 
 .canvas__circle {
 }
 
 .tools {
+  height: 57.5vh;
 }
