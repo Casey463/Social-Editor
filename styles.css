@@ -41,6 +41,18 @@ button {
   }
 }
 
+@keyframes fade-in-from-right {
+  0% {
+    opacity: 0;
+    transform: translateX(50px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
 @keyframes fade-in {
   0% {
     opacity: 0;
@@ -394,6 +406,7 @@ button {
   flex-direction: column;
   height: 57.5vh;
   row-gap: 5px;
+  animation: fade-in-from-right 0.5s;
 }
 
 .tool {
