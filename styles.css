@@ -329,6 +329,7 @@ button {
   justify-content: center;
   align-items: center;
   margin-top: -25px;
+  column-gap: 20px;
 }
 
 .canvas {
@@ -392,4 +393,21 @@ button {
   display: flex;
   flex-direction: column;
   height: 57.5vh;
+  row-gap: 5px;
+}
+
+.tool {
+  background-color: #e1e6e9;
+  height: 44px;
+  width: 44px;
+  border-radius: 8%;
+  color: #404446;
+  cursor: pointer;
+}
+
+.tool:last-child {
+  margin-top: auto;
+}
+
+.tool__icon {
 }
