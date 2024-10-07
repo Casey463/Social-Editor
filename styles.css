@@ -403,6 +403,17 @@ button {
   border-radius: 8%;
   color: #404446;
   cursor: pointer;
+  transition: all 0.4s;
+}
+
+.tool:hover,
+.tool:focus {
+  background-color: #2b363b;
+  color: #fff;
+}
+.tool--active {
+  background-color: #2b363b;
+  color: #fff;
 }
 
 .tool:last-child {
