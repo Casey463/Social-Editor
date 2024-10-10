@@ -448,3 +448,11 @@ button {
 
 .tool__icon {
 }
+
+//* Media Queries *//
+
+@media (max-width: 1200px) {
+  .panel {
+    display: none;
+  }
+}
