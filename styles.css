@@ -449,10 +449,24 @@ button {
 .tool__icon {
 }
 
-//* Media Queries *//
+/* Media Queries */
 
 @media (max-width: 1200px) {
   .panel {
     display: none;
+  }
+
+  .canvas {
+    width: 67vw;
+  }
+}
+
+@media (max-width: 1000px) {
+  .sidebar {
+    display: none;
+  }
+
+  .canvas {
+    width: 80vw;
   }
 }
