@@ -462,6 +462,9 @@ button {
 }
 
 @media (max-width: 1000px) {
+  .app__container {
+    height: initial;
+  }
   .sidebar {
     display: none;
   }
@@ -471,10 +474,13 @@ button {
   }
 
   .artboard {
-    padding: 0 20px;
+    padding: 50 20px;
+    margin-top: 0;
+    height: initial;
   }
 
   .canvas {
     width: initial;
+    height: 500px;
   }
 }
