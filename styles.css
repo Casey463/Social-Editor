@@ -426,7 +426,7 @@ button {
   background-color: #e1e6e9;
   height: 44px;
   width: 44px;
-  border-radius: 8%;
+  border-radius: 8px;
   color: #404446;
   cursor: pointer;
   transition: all 0.4s;
@@ -475,13 +475,16 @@ button {
   }
 
   .artboard {
-    padding: 50 20px;
+    padding: 50px 20px;
     margin-top: 0;
     height: initial;
   }
 
   .canvas {
-    width: initial;
+    height: 500px;
+    width: 100%;
+  }
+  .tools {
     height: 500px;
   }
 }
@@ -495,5 +498,25 @@ button {
   }
   .dd-toggle:nth-of-type(3) {
     display: none;
+  }
+
+  .artboard {
+    flex-direction: column;
+  }
+  .canvas {
+    order: 2;
+    height: 450px;
+  }
+  .tools {
+    flex-direction: row;
+    column-gap: 5px;
+    order: 1;
+    height: initial;
+    margin-bottom: 15px;
+    align-self: start;
+  }
+
+  .tool:last-child {
+    margin-top: 0;
   }
 }
